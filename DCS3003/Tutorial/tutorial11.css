@@ -1,0 +1,55 @@
+body {
+     font-family: Times new Romans;
+     text-align: center;
+     background-image: url('kda.gif');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+
+}
+
+
+p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+ol, ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+        
+li {
+    font-size: 18px;
+    color: white;
+}
+
+hr {
+    border: 0;
+    height: 2px; 
+    background-color: purple;
+    width: 50%;
+}
+
+img {
+    height: 350px;
+    width: 350px;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 5px solid black; 
+}
+
+img.special {
+    height: 400px;
+    width: 900px;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 5px solid black; 
+}
