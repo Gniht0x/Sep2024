@@ -11,7 +11,7 @@ h1{
 	border-color: white; 
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 	font-size: 50px;
-        transform: rotateY(15deg) rotateX(10deg); /* Rotate the heading */
+        transform: rotateY(15deg) rotateX(10deg); 
         transition: transform 0.5s;
 	}
 
