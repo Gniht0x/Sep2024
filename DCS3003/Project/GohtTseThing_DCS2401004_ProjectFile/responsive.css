@@ -1,7 +1,8 @@
 /* responsive.css */
 
 /* Mobile styles */
-@media (max-width: 767px) {
+@media (min-width:480px) and (max-width: 767px) {
+    
     header .menu_btn {
         display: block; /* Show menu button */
     }
@@ -27,6 +28,12 @@
         transition: left 0.4 ease;
 
     }
+
+    .home{
+        padding-left: 20px;
+        padding-top: 20px;
+        background-attachment: scroll;
+    }
     .home h1 {
         font-size: 2rem;
     }
@@ -47,7 +54,9 @@
         display: block; /* Show menu button */
     }
 
-
+    .dropdown_menu{
+        display: block;
+    }
 
     .home h1 {
         font-size: 3rem;
