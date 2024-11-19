@@ -1,7 +1,9 @@
-/* responsive.css */
-
-/* Mobile styles */
-@media (max-width: 767px) {
+@media (max-width:480px){
+    .home .logo{
+        margin-left: 50px;
+    }
+}
+@media (min-width:481px) and (max-width: 767px) {
     
     header .menu_btn {
         display: block; /* Show menu button */
@@ -10,8 +12,6 @@
     .menu {
         display: none; /* Hide the menu on mobile */
     }
-
-
 
     .dropdown_menu{
         display: block;
