@@ -2,6 +2,44 @@
     .home .logo{
         margin-left: 50px;
     }
+    header .menu_btn {
+        display: block; /* Show menu button */
+    }
+
+    .menu {
+        display: none; /* Hide the menu on mobile */
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+    header nav.menu{
+        flex-direction: column;
+        row-gap: 2rem;
+        position: absolute;
+        left: -100%;
+        top: 110px;
+        padding-top: 90px;
+        background: white;
+        height: (100vh-110px);
+        z-index: 10;
+        transition: left 0.4 ease;
+
+    }
+
+    .home{
+        padding-left: 20px;
+        padding-top: 20px;
+        background-attachment: scroll;
+    }
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
 }
 @media (min-width:481px) and (max-width: 767px) {
     
