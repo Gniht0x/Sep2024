@@ -1,7 +1,7 @@
 /* responsive.css */
 
 /* Mobile styles */
-@media (min-width:480px) and (max-width: 767px) {
+@media  (max-width: 767px) {
     
     header .menu_btn {
         display: block; /* Show menu button */
