@@ -1,4 +1,4 @@
-@media (min-width:400px) and (max-width: 767px) {
+@media (max-width: 767px) {
     
     header .menu_btn {
         display: block; /* Show menu button */
