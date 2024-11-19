@@ -11,10 +11,7 @@
         display: none; /* Hide the menu on mobile */
     }
 
-    header .Logo
-    {
-    margin-right: auto;
-    }
+
 
     .dropdown_menu{
         display: block;
@@ -54,10 +51,7 @@
         flex-direction: row;
         display: none; 
     }
-    header .Logo
-    {
-    margin-right: 50px;
-    }
+
 
     header .menu_btn {
         display: block; 
