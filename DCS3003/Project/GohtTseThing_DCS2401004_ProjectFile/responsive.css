@@ -11,6 +11,11 @@
         display: none; /* Hide the menu on mobile */
     }
 
+    header .Logo
+    {
+    margin-right: 50px;
+    }
+
     .dropdown_menu{
         display: block;
     }
@@ -47,11 +52,15 @@
 @media (min-width: 767px) and (max-width: 1120px) {
     header .menu {
         flex-direction: row;
-        display: none; /* Hide the menu on tablet by default */
+        display: none; 
+    }
+    header .Logo
+    {
+    margin-right: 50px;
     }
 
     header .menu_btn {
-        display: block; /* Show menu button */
+        display: block; 
     }
 
     .dropdown_menu{
@@ -116,7 +125,6 @@
     }
 
 /*Destinations*/
-/* For smaller devices like mobile phones */
 @media (max-width: 767px) {
     .Destinations {
       padding-left: 20px;
@@ -154,17 +162,16 @@
     }
   
     .col p {
-      padding: 0 20px; /* Reduce padding */
-      font-size: 1rem; /* Adjust font size */
+      padding: 0 20px; 
+      font-size: 1rem; 
     }
   
     .Destinations .ctn {
-      width: 100%; /* Make button full-width */
+      width: 100%; 
       padding: 10px;
     }
   
   
-  /* For larger screens like tablets and desktops */
   @media (min-width: 767px) and (max-width: 1024px) {
     .Destinations {
       padding-left: 50px;
@@ -175,12 +182,12 @@
     }
   
     .destination__row {
-      flex-wrap: wrap; /* Allow columns to wrap */
+      flex-wrap: wrap; 
     }
     .destination__row .col img {
-        width: 180px;  /* Make the image responsive */
-        height: 180px;  /* Set a fixed height */
-        object-fit: cover;  /* Ensure images maintain aspect ratio and cover the container */
+        width: 180px;  
+        height: 180px;  
+        object-fit: cover; 
         margin-top: 10px;
         border-radius: 8px;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -195,18 +202,17 @@
     }
   
     .Destinations .ctn {
-      width: auto; /* Make the button width normal */
+      width: auto;
     }
   }
-  
-  /* For larger screens (desktops) */
+ 
   @media (min-width: 1025px) {
     .Destinations {
       padding-left: 70px;
     }
   
     .title h1 {
-      font-size: 4vmin; /* Default font size */
+      font-size: 4vmin; 
     }
   
     .destination__row {
@@ -214,7 +220,7 @@
     }
   
     .destination__row .col {
-      width: 23%; /* Four cards per row */
+      width: 23%; 
     }
   
     .destination__row .col img {
@@ -239,30 +245,30 @@
 /*Tours*/
 @media (max-width: 1024px) {
   .content_col, .images-col {
-      max-width: 100%; /* Full width for medium screens */
+      max-width: 100%; 
   }
 
   .tours-images {
-      grid-template-columns: repeat(2, 1fr); /* Keep 2 columns */
+      grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (max-width: 768px) {
   .tours_row {
-      flex-direction: column; /* Stack content and images vertically */
+      flex-direction: column; 
   }
 
   .content_col, .images-col {
-      max-width: 100%; /* Full width for smaller screens */
+      max-width: 100%; 
   }
 
   .tours-images {
-      grid-template-columns: repeat(2, 1fr); /* Maintain two columns on mobile */
-      gap: 10px; /* Reduce gap for smaller screens */
+      grid-template-columns: repeat(2, 1fr);  
+      gap: 10px; 
   }
 
   .tours-images img {
-      height: 200px; /* Adjust height for smaller devices */
+      height: 200px; 
   }
 
   .content_col h1 {
@@ -281,12 +287,12 @@
 
 @media (max-width: 480px) {
   .tours-images {
-      grid-template-columns: repeat(2, 1fr); /* Still maintain two columns */
-      gap: 5px; /* Smaller gap for very small screens */
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
   }
 
   .tours-images img {
-      height: 150px; /* Further reduce image height for very small devices */
+      height: 150px; 
   }
 
   .content_col h1 {
@@ -322,7 +328,7 @@
     .trans__container2 {
       margin-left: 100px;
       margin-right: -30px;
-      width: 12rem; /* Slightly increased for better appearance */
+      width: 12rem; 
       height: 20rem;
     }
   
@@ -338,7 +344,7 @@
     }
   }
   
-  /* Styles for screens 768px and below */
+  
   @media (max-width: 768px) {
 .trans {
     flex-direction: column;
@@ -347,7 +353,7 @@
     }
   
     .trans h1 {
-      font-size: 1rem; /* Reduced font size for mobile screens */
+      font-size: 1rem; 
       margin: 0;
 
     }
@@ -377,33 +383,33 @@
     }
   }
   
-  /* Styles for the range between 480px and 767px */
+
   @media (min-width: 480px) and (max-width: 767px) {
 .trans h1 {
     font-size: 1.5rem; 
-    text-align: center;/* Adjusted to fit smaller screens */
+    text-align: center;
     margin-top: 20px;
     }
   
     .trans__container,
     .trans__container2 {
-      width: 10rem; /* Smaller size for smaller devices */
-      height: 20rem; /* Adjusted height */
+      width: 10rem; 
+      height: 20rem;
     }
   
     .trans-img,
     .trans-img2 {
-      width: 250px; /* Adjusted image size */
+      width: 250px; 
       height: 350px;
     }
   
     .trans-content,
     .trans-content2 {
-      font-size: 1rem; /* Reduced text size for readability */
+      font-size: 1rem; 
     }
   
     .trans__line {
-      width: 100px; /* Smaller width for better fit */
+      width: 100px; 
       margin: 15px auto;
     }
   }
@@ -413,11 +419,11 @@
 /*Natural Wonders*/
 @media (min-width: 320px) and (max-width:787px){
     .natural__data {
-        padding: 1rem; /* Adjust padding for better use of small screen space */
+        padding: 1rem; 
     }
 
     .natural h1 {
-        font-size: 2rem; /* Adjust font size to be more readable on small screens */
+        font-size: 2rem; 
     }
 }
 
@@ -428,17 +434,17 @@
 
     .swiper-button-next,
     .swiper-button-prev {
-        display: flex; /* Make swiper buttons visible on tablets and above */
+        display: flex;
     }
 
     .natural h1 {
-        font-size: 2.5rem; /* Adjust font size for tablets */
+        font-size: 2.5rem; 
     }
 }
 
 @media screen and (min-width: 1120px) {
     .natural__container {
-        max-width: 1120px; /* Limit the max-width on larger screens */
+        max-width: 1120px; 
     }
 
     .swiper-button-next {
@@ -450,7 +456,7 @@
     }
 
     .natural h1 {
-        font-size: 3rem; /* Standard font size for larger screens */
+        font-size: 3rem; 
     }
 }
 
@@ -460,17 +466,17 @@
         background-attachment: scroll;
     }
     .Seasonal .sea {
-        margin-inline: 2rem; /* Reduced from 1000px */
+        margin-inline: 2rem; 
         min-height: 100vh;
     }
     
     .card__data {
-        width: 90%; /* Changed to 100% for responsiveness */
+        width: 90%; 
     }
 
     .Seasonal .line {
         margin: 0 auto; 
-        margin-bottom: 20px; /* Adjust to a smaller negative value if needed */
+        margin-bottom: 20px; 
         margin-top: 20px;
         width: 50%;
     }
@@ -523,11 +529,11 @@
     }
     
     .card__data {
-        width: 90%; /* Ensures both elements fill available space */
+        width: 90%; 
     }
 
     .card__data {
-        padding-inline: 1.5rem; /* Adjusted for consistency */
+        padding-inline: 1.5rem;
     }
 }
 
@@ -581,13 +587,12 @@
     }
 }
 
-/* General Mobile Devices */
+/*Blog*/
 @media (max-width: 768px) {
-
-    
-
-
-    .blog__row {
+    .blog{
+        background-attachment: scroll;
+    }
+   .blog__row {
         flex-direction: column; 
         gap: 2rem;
         margin-bottom: 50px;
@@ -620,6 +625,9 @@
 
 
 @media (max-width: 1460px) {
+    .blog{
+        background-attachment: scroll;
+    }
     .blog__row {
         display: flex;
         flex-wrap: wrap; 
@@ -651,14 +659,14 @@
 @media (max-width: 768px) {
     .footer {
 
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px; 
     }
 }
 
 @media (max-width: 480px) {
     .footer {
 
-        font-size: 12px; /* Further adjust for very small screens */
+        font-size: 12px; 
     }
 }
 
