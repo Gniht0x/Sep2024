@@ -377,7 +377,7 @@
   }
   
 
-  @media (min-width: 480px) and (max-width: 767px) {
+  @media (min-width: 400px) and (max-width: 767px) {
 .trans h1 {
     font-size: 1.5rem; 
     text-align: center;
